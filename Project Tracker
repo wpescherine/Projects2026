@@ -1,0 +1,21 @@
+122125 Trucare(0.33.6)  : Updating API
+                        : Added routes for CRUD to Patient
+                        : Added routes for CRUD to Doctor
+081125 Mystika(0.3)     : Added World Map
+                        : Increased functionality
+072125 Rails(2.1)       : Review and documentation
+070625 Ironman(0.8)     : Basic UI updates
+                          Added Login
+                          Basic Dashboard
+                          Basic Events
+051825 Mercantus(0.18.1): Updating rails API
+041325 Barren(0.14)     : Added more roles to game 
+                        : Added more char stats
+                        : Added char naming
+                        : Changed layout on Home and creation screens
+                              Issue: The bonus and rerender is not working well(Accepted)
+041025 POC(0.9)         : Continued to update and expand application
+032625 Ascension(0.16.0): Added more skills to creation screen
+                        : Added more styles to creation screen
+                        : Added Exit to game functionality
+031225 General          : Was working on some CPP items
