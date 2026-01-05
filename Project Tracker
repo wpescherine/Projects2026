@@ -1,9 +1,7 @@
+010426 Trucare(0.33.6)  : Updating into current work file system
+       General          : Added growth tracker
 010326 Mystika(0.3)     : Updating into current work file system
 010226 Ascension(0.16.0): Updating into current work file system
-010126 General          : Updating General structures and files
-122125 Trucare(0.33.6)  : Updating API
-                        : Added routes for CRUD to Patient
-                        : Added routes for CRUD to Doctor
 072125 Rails(2.1)       : Review and documentation
 070625 Ironman(0.8)     : Basic UI updates
                           Added Login
