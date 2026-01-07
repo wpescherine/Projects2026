@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+.sellInput{
+  width: 100px;
+}
+
+.bankbones{
+  width: 25px;
+}
+
+.headerText{
+  color:#ffdf00;
+  font-size: 18px;
+}
+
+.headerSubText{
+  color:#ffdf00;
+  font-size: 12px;
+}
+
+p {
+  color:#ffdf00;
+}
+
+h1, h3 {
+  color:#ffdf00;
+  font-size: 24px;
+}
+
+h5 {
+  color:#ffdf00;
+}
+
+label {
+  color: #ffdf00;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+body {
+  background-color: #000;
+}
+
+.invertButton {
+  background-color: #ffdf00;
+  color:#000;
+  width: 120px;
+}
+
+.buyButton {
+  background-color: #ffdf00;
+  color:#000;
+  width: 50px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
