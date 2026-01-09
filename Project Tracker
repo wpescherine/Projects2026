@@ -1,14 +1,7 @@
+010826 General          : Basic File updates
 010726 NFLMatrix(0.1)   : Initial set
 010626 Mercantus(0.18.1): Updating into Current work file system
 010526 Ironman(0.8)     : Updating into Current work file system
 010426 Trucare(0.33.6)  : Updating into current work file system
-       General          : Added growth tracker
 010326 Mystika(0.3)     : Updating into current work file system
 010226 Ascension(0.16.0): Updating into current work file system
-072125 Rails(2.1)       : Review and documentation
-041325 Barren(0.14)     : Added more roles to game 
-                        : Added more char stats
-                        : Added char naming
-                        : Changed layout on Home and creation screens
-                              Issue: The bonus and rerender is not working well(Accepted)
-041025 POC(0.9)         : Continued to update and expand application
