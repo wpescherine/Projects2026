@@ -6,22 +6,23 @@ import Main from "./main"
 import PCreate from "./pcreate"
 import DCreate from "./dcreate"
 import Dashboard from "./dashboard"
+import MyContext from "./myContext"  
 
 function App() {
-  const [username, setUsername] = useState("None")
+  const [globalUsername, setGlobalUsername] = useState("None")
   return (
-    <Router>
-      <div className="App">
-        <Context.Provider value={{username, setUsername}}>
+    <MyContext.Provider value={{globalUsername, setGlobalUsername}}>
+      <Router>
+        <div className="App">
           <Routes>
             <Route exct path="/" element={ <Main />} />
             <Route exct path="/pcreate" element={ <PCreate />} />
             <Route exct path="/dcreate" element={ <DCreate />} />
             <Route exct path="/dashboard" element={ <Dashboard />} />
           </Routes>
-        </Context.Provider>
-      </div>
-    </Router>
+        </div>
+      </Router>
+    </MyContext.Provider>
   );
 }
 

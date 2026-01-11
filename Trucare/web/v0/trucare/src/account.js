@@ -1,4 +1,4 @@
-import {useState, useContext} from "react";
+import {useState} from "react";
 
 import './App.css';
 
@@ -7,7 +7,6 @@ import Doctor from "./components/account/doctorprofile"
 
 function Account() {
     const[userType,setUserType]= useState("Doctor")
-    const {globalActionPort, setGlobalActionPort} = useContext(MyContext);
 
     return (
         <div>
