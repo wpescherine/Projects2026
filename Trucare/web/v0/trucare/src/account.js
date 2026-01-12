@@ -6,7 +6,7 @@ import Patient from "./components/account/patientprofile"
 import Doctor from "./components/account/doctorprofile"
 
 function Account() {
-    const[userType,setUserType]= useState("Doctor")
+    const[userType,setUserType]= useState("Patient")
 
     return (
         <div>

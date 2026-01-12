@@ -2,13 +2,13 @@ import React, {useState,useContext} from "react";
 import MyContext from "../../myContext"
 
 function PatientProfile(){
-    //const {globalUsername, setGlobalUsername} = useContext(MyContext);
+    const {globalUsername, setGlobalUsername} = useContext(MyContext);
     
     return(
         <div style={{display: "flex", justifyContent:"center"}}>
             <div style={{width: "250px"}}>
-                <p style={{textAlign: "left", marginLeft: "20px"}}>Patient ID:{globalUsername}</p>
-                <p style={{textAlign: "left", marginLeft: "20px"}}>Patient Name:</p>
+                <p style={{textAlign: "left", marginLeft: "20px"}}>Patient ID:</p>
+                <p style={{textAlign: "left", marginLeft: "20px"}}>Patient Name:{globalUsername}</p>
                 <p style={{textAlign: "left", marginLeft: "20px"}}>Patient Address:</p>
                 <p style={{textAlign: "left", marginLeft: "20px"}}>Patient State:</p>
                 <p style={{textAlign: "left", marginLeft: "20px"}}>Patient Zip Code:</p>

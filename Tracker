@@ -1,3 +1,4 @@
+011126  Trucare(0.36.6)  : Resolved issue with global state management
 011026  Trucare(0.35.6)  : Continuing to add state management in Global scope to app
 010926  Trucare(0.34.6)  : Adding Global scope to app
 010826  General          : Basic File updates

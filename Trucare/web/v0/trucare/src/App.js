@@ -1,6 +1,6 @@
 import './App.css';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
-import useState from 'react'
+import {useState} from 'react'
 
 import Main from "./main"
 import PCreate from "./pcreate"
@@ -9,7 +9,8 @@ import Dashboard from "./dashboard"
 import MyContext from "./myContext"  
 
 function App() {
-  const [globalUsername, setGlobalUsername] = useState("None")
+  const [globalUsername, setGlobalUsername] = useState("Test");
+
   return (
     <MyContext.Provider value={{globalUsername, setGlobalUsername}}>
       <Router>
