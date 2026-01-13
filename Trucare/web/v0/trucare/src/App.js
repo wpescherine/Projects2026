@@ -9,7 +9,7 @@ import Dashboard from "./dashboard"
 import MyContext from "./myContext"  
 
 function App() {
-  const [globalUsername, setGlobalUsername] = useState("Test");
+  const [globalUsername, setGlobalUsername] = useState("");
 
   return (
     <MyContext.Provider value={{globalUsername, setGlobalUsername}}>

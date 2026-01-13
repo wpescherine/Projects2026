@@ -1,6 +1,8 @@
-import React, {useState} from 'react';
+import React, {useState, useContext} from 'react';
 import './App.css';
 import {useNavigate} from 'react-router-dom'
+
+import MyContext from "./myContext"
 
 //import Users from "./usersDB.json"
 //import Docters from "./doctorDB.json"
@@ -8,6 +10,8 @@ import {useNavigate} from 'react-router-dom'
 function Main() {
     const[logInUsername,setLogInUsername] = useState ("");
     const[logInPassword,setLogInPassword] = useState ("");
+    const{globalUsername, setGlobalUsername} = useContext(MyContext);
+
 
     let navigate = useNavigate();
     
@@ -31,14 +35,13 @@ function Main() {
         navigate('./pcreate')
     }
 
-    //function RedirectUnderDev(){
-    //    if((logInUsername === Users.username) && (logInPassword=== Users.password)){
-    //        navigate('./dashboard')
-    //    }
-    //}
-
     function RedirectToDashboard(){
-        navigate('./dashboard')
+        if((logInUsername === "test") && (logInPassword=== "Test")){
+            setGlobalUsername(logInUsername);
+            navigate('./dashboard')
+        }else{ 
+            alert("Incorrect Username or Password")
+        }
     }
 
     return (
@@ -56,7 +59,7 @@ function Main() {
                 <button class='invertButton' onClick={RedirectToPCreate}>Create Patient</button>
                 <button class='invertButton' onClick={RedirectToDCreate}>Create Doctor</button>  
             </p>
-            <p>version 0.36.6</p>
+            <p>version 0.37.6</p>
         </div>
     ); 
 }
