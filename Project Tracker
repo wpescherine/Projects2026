@@ -1,7 +1,8 @@
-011126 Trucare(0.36.6)  : Resolved issue with global state management
+011326  Mystika(0.4)     : Added a game Config file for data storage
+                         : Improved movement thru app
+011226 Trucare(0.37.6)  : Improved basic log in logic
 010826 General          : Basic File updates
 010726 NFLMatrix(0.1)   : Initial set
 010626 Mercantus(0.18.1): Updating into Current work file system
 010526 Ironman(0.8)     : Updating into Current work file system
-010326 Mystika(0.3)     : Updating into current work file system
 010226 Ascension(0.16.0): Updating into current work file system

@@ -13,7 +13,7 @@
         android:theme="@style/Theme.Mystika"
         tools:targetApi="31">
         <activity
-            android:name=".WorldmapActivity"
+            android:name=".WorldMapActivity"
             android:exported="false" />
         <activity
             android:name=".CreateAccount"

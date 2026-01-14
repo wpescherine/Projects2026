@@ -1,15 +1,10 @@
 package com.example.mystika;
 
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 public class Home extends AppCompatActivity {
 
@@ -25,7 +20,7 @@ public class Home extends AppCompatActivity {
     }
 
     public void Map(View v){
-        Intent WorldMap = new Intent(this, WorldMap.class);
+        Intent WorldMap = new Intent(this, WorldMapActivity.class);
         startActivity(WorldMap);
     }
 }
