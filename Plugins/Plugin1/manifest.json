@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Sample Extension 1",
+  "version": "1.0",
+  "description": "A simple 'Hello World' sample extension.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/Duck16.png",
+      "48": "icons/Duck48.png"
+    }
+  },
+  "icons": {
+    "128": "icons/Duck128.png"
+  }
+}
