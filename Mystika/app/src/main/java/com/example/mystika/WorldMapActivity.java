@@ -24,6 +24,11 @@ public class WorldMapActivity extends AppCompatActivity {
         });
     }
 
+    public void CombatBoard(View v){
+        Intent Combat = new Intent( this , CombatBoard.class);
+        startActivity(Combat);
+    }
+
     public void Quit(View v){
         Intent Quit = new Intent(this, MainActivity.class);
         startActivity(Quit);

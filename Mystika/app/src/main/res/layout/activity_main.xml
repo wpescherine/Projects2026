@@ -60,6 +60,13 @@
             android:textColor="#000"
             android:textSize="24dp"
             android:onClick="createAccount"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="v0.5"
+            android:textColor="#ff0"
+            android:textSize="10dp" />
 
     </LinearLayout>
 
