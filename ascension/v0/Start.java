@@ -1,24 +1,25 @@
 package ascension.v0;
 
-import java.awt.*;
-import javax.swing.*;
+import java.awt.Color;
+import java.awt.Dimension;
+
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
 
 public class Start {
     JPanel start = new JPanel();
-    // ImageIcon chainLogo = new
-    // ImageIcon(sample.getClass().getResource("v0/chain.png"));
-    // ImageIcon mainLogo = new ImageIcon("/images/chain.png");
-    // ImageIcon image5 = new ImageIcon(getClass().getResource("empty.png"));
-
-    // JLabel logo = new JLabel(mainLogo);
-    // JLabel imgLabel4 = new JLabel(image5);
-
+    ImageIcon mainLogo = new ImageIcon("ascension/v0/images/chain.png");
+    JLabel logo = new JLabel(mainLogo);
     JButton begin = new JButton("Create");
     JButton saved = new JButton("Saved");
 
     Start() {
-        //logo.setPreferredSize(new Dimension(1000, 500));
-        //logo.setBounds(0, 0, 1000, 500);
+        logo.setPreferredSize(new Dimension(1000, 500));
+        //x is ofor left to right qand y is for top to bottom
+        logo.setBounds(0, 250, 1000, 100);
+        logo.setBackground(Color.BLUE);
 
         begin.setPreferredSize(new Dimension(100, 50));
         begin.setBounds(395, 350, 100, 50);
@@ -27,7 +28,7 @@ public class Start {
 
         start.add(begin);
         start.add(saved);
-        //start.add(logo);
+        start.add(logo);
         start.setLayout(null);
         start.setBackground(Color.BLACK);
         start.setPreferredSize(new Dimension(1000, 750));
