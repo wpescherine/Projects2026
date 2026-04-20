@@ -4,6 +4,10 @@ function Home() {
     return (
         <div style={{marginTop: "50px", textAlign: "left", marginLeft:"10px"}}>
             <p>
+                4/19/26 :
+                Doing review of Previously done work, with emphasis on backend improvements and continued expansion of application.
+            </p>
+            <p>
                 4/14/25 :
                 Beginning the process of adding the backend and increased functionality. At the same time also start the process for hosting and in creased visibility.
             </p>
